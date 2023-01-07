@@ -780,7 +780,7 @@ button {
 }
 .pricing-buttons {
   display: inline-block;
-  border: 2px solid #717171;
+  border: 2px solid #eef1f6;
   border-radius: 999rem;
   padding: 3px;
   margin-bottom: 4rem;
@@ -931,7 +931,7 @@ button {
 /* End Section Pricing */
 /* Start Section Testimonials */
 .section-testimonials-gallery .container {
-  background-image: url("../ProjectImages/testimonial-bg.png");
+  background-image: url("../ProjectImages/testimonial-bg.jpg");
   background-size: cover;
   padding: 12rem 14rem 12rem 17rem;
   display: grid;
@@ -1032,6 +1032,7 @@ button {
 
 .footer-logo {
   display: inline-block;
+  width: 40%;
   margin-bottom: 3rem;
 }
 .footer-slogan {
@@ -1153,7 +1154,7 @@ button {
   text-align: center;
   border: none;
   opacity: 0.5;
-  position: absolute;
+  position: fixed;
   bottom: 3rem;
   right: 3rem;
   transition: all 0.3s;

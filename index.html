@@ -4,7 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Appie landing page</title>
+    <title>appie</title>
+    <meta name="description" content="appie landing page" />
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/ProjectImages/icons/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="ProjectImages/icons/apple-touch-icon.png"
+    />
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +38,7 @@
               alt="Appie logo"
               class="main-logo"
           /></a>
-          <button class="nav-toggle">
+          <button class="nav-toggle" aria-label="nav-toggle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -66,7 +78,7 @@
               ></a>
             </li>
             <li class="main-nav-item">
-              <a href="#" class="main-nav-link">Service</a>
+              <a href="#how-it-works" class="main-nav-link">Service</a>
             </li>
             <li class="main-nav-item">
               <a href="#" class="main-nav-link"
@@ -114,7 +126,12 @@
               <a href="#contact" class="main-nav-link">Contact</a>
             </li>
           </ul>
-          <button class="button pink main-header-button">Get Started</button>
+          <button
+            class="button pink main-header-button"
+            aria-label="get-started"
+          >
+            Get Started
+          </button>
         </nav>
       </div>
     </header>
@@ -173,7 +190,7 @@
       <!-- End Section Hero -->
 
       <!-- Start Section How it works -->
-      <section class="how-it-works section-mb">
+      <section class="how-it-works section-mb" id="how-it-works">
         <div class="container">
           <header class="section-header">
             <div class="section-title-box">
@@ -182,7 +199,10 @@
                 The full monty spiffing good time no biggie cack grub fantastic.
               </p>
             </div>
-            <button class="button outline section-button">
+            <button
+              class="button outline section-button"
+              aria-label="view-all-features"
+            >
               View all Features
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -679,7 +699,9 @@
                   tosh hunky dory it's all gone to pot haggle william car boot
                   pear shaped geeza.
                 </p>
-                <button class="button outline">Get Started</button>
+                <button class="button outline" aria-label="get-started">
+                  Get Started
+                </button>
               </div>
               <div class="watch-arrows">
                 <svg
@@ -733,10 +755,11 @@
                 arse over blatant
               </p>
             </div>
-            <div class="platform-buttons">
+            <div class="platform-buttons" aria-label="download-for-ios">
               <button class="platform-button">
                 <img
                   src="ProjectImages/icons/IOS.svg"
+                  alt="iOS Icon"
                   class="platform-button-image"
                 /><span class="download-platform"
                   >Download for<br /><span class="platform-name"
@@ -744,9 +767,10 @@
                   ></span
                 >
               </button>
-              <button class="platform-button">
+              <button class="platform-button" aria-label="download-for-android">
                 <img
                   src="ProjectImages/icons/google-play.svg"
+                  alt="android Icon"
                   class="platform-button-image"
                 /><span class="download-platform"
                   >Download for<br /><span class="platform-name"
@@ -770,8 +794,15 @@
               </p>
             </div>
             <div class="pricing-buttons">
-              <button class="pricing-button active-pricing">Monthly</button>
-              <button class="pricing-button">Yearly</button>
+              <button
+                class="pricing-button active-pricing"
+                aria-label="monthly-plans"
+              >
+                Monthly
+              </button>
+              <button class="pricing-button" aria-label="yearly-plans">
+                Yearly
+              </button>
             </div>
           </header>
 
@@ -841,7 +872,12 @@
                     24/7 Support
                   </li>
                 </ul>
-                <button class="button plan-button outline">Choose plan</button>
+                <button
+                  class="button plan-button outline"
+                  aria-label="choose-plan"
+                >
+                  Choose plan
+                </button>
               </div>
             </div>
             <!-- 2 -->
@@ -909,7 +945,12 @@
                     24/7 Support
                   </li>
                 </ul>
-                <button class="button plan-button pink">Choose plan</button>
+                <button
+                  class="button plan-button pink"
+                  aria-label="choose-plan"
+                >
+                  Choose plan
+                </button>
               </div>
             </div>
             <!-- 3 -->
@@ -994,7 +1035,12 @@
                     24/7 Support
                   </li>
                 </ul>
-                <button class="button plan-button outline">Choose plan</button>
+                <button
+                  class="button plan-button outline"
+                  aria-label="choose-plan"
+                >
+                  Choose plan
+                </button>
               </div>
             </div>
           </div>
@@ -1298,7 +1344,7 @@
               </li>
 
               <li class="footer-nav-item">
-                <a href="#">Service</a>
+                <a href="">Service</a>
               </li>
 
               <li class="footer-nav-item">
@@ -1406,7 +1452,7 @@
         </div>
         <div class="footer-bottom-section">
           <div class="footer-buttons">
-            <button class="footer-button">
+            <button class="footer-button" aria-label="download-for-ios">
               <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
               <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
@@ -1455,7 +1501,7 @@
               >Download for iOS
             </button>
 
-            <button class="footer-button">
+            <button class="footer-button" aria-label="download-for-android">
               <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
               <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
