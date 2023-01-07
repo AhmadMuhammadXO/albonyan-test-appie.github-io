@@ -559,7 +559,6 @@ button {
   top: 0;
   background-color: #ff3e66;
   transition: all 0.3s;
-  border-radius: 2rem;
   z-index: -1;
 }
 .feature-item:nth-child(1):hover::after {
@@ -660,6 +659,10 @@ button {
   padding-bottom: 4.8rem;
   text-align: center;
   box-shadow: 0 0 2rem rgb(231, 231, 231);
+  transition: all 0.3s;
+}
+.installation-number:hover {
+  transform: translateY(-4px);
 }
 .installation-icon {
   width: 6rem;
@@ -807,6 +810,10 @@ button {
   border: 2px solid #eef1f6;
   border-radius: 1rem;
   padding: 4rem;
+  transition: all 0.3s;
+}
+.pricing-plan:hover {
+  transform: translateY(-4px);
 }
 .pricing-plan:nth-child(2) {
   background-color: white;
@@ -815,18 +822,7 @@ button {
   box-shadow: 0 0 3rem rgb(231, 231, 231);
   border-top: none;
 }
-.pricing-plan:nth-child(2)::after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: -3px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #ff3e66;
-  border-radius: 1rem;
-}
+
 .pricing-plan:nth-child(2)::before {
   content: "Most Popular";
   display: inline-block;
@@ -872,8 +868,7 @@ button {
   color: #717171;
   margin-bottom: 3rem;
 }
-.plan-features {
-}
+
 .plan-features-list {
   display: flex;
   flex-direction: column;
@@ -1059,6 +1054,10 @@ button {
 .social-icon {
   width: 2rem;
   height: 2rem;
+  transition: all 0.3s;
+}
+.social-icon:hover {
+  transform: scale(1.2);
 }
 
 .footer-nav {
@@ -1160,6 +1159,7 @@ button {
   transition: all 0.3s;
   display: inline-block;
   color: white;
+  box-shadow: 0.5rem 0.5rem 1rem #ff3e6593;
 }
 
 .go-top:hover {
