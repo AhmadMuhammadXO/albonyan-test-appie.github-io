@@ -369,24 +369,7 @@ button {
   z-index: -1;
   height: 100%;
 }
-/* 2 */
-.how-process:nth-child(2):hover {
-  color: white;
-}
 
-.how-process:nth-child(2):hover .process-desc,
-.how-process:nth-child(2):hover .read-more {
-  color: white;
-}
-.how-process:nth-child(2):hover .process-icon {
-  background-color: white;
-  stroke: #3679ff;
-}
-.how-process:nth-child(2):hover::after {
-  background-color: #3679ff;
-  z-index: -1;
-  height: 100%;
-}
 /* 3 */
 .how-process:nth-child(3):hover {
   color: white;
